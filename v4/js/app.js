@@ -12,6 +12,6 @@ $(document).ready(function () {
     })
 
     $('.btn-warning').click(function (){
-        parrafo.toggleClass('display-4')
+        parrafo.toggle(1000)
     })
 }) 
